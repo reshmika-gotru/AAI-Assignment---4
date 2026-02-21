@@ -1,0 +1,19 @@
+=== PyOD AutoEncoder Fraud Detection ===
+Data: data/creditcard.csv
+Device: cpu
+Epochs: 20
+Batch size: 512
+Contamination: 0.00172
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9996    0.9984    0.9990     71079
+           1     0.4554    0.7886    0.5774       123
+
+    accuracy                         0.9980     71202
+   macro avg     0.7275    0.8935    0.7882     71202
+weighted avg     0.9987    0.9980    0.9983     71202
+
+ROC AUC: 0.953464
+Average Precision (AP): 0.584677
